@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar';
-import DaisyNavbar from './components/daisyNavbar/DaisyNavbar';
+import PriceOptions from './components/PriceOptions/PriceOptions';
+
 
 function App() {
   
@@ -8,8 +9,8 @@ function App() {
   return (
     <>
     <Navbar></Navbar>
-    <DaisyNavbar></DaisyNavbar>
-      <h1 className="text-3xl">Vite + React</h1>
+      <h1 className="text-7xl text-center my-12 font-bold">Global Gym</h1>
+      <PriceOptions></PriceOptions>
     </>
   );
 }
